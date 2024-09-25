@@ -5,7 +5,7 @@ const pool = mysql.createPool({
   user: "root",
   password: "N3ft@l1977",
   database: "ecolife_db",
-  port: 3306, // MySQL port (default is 3306)
+  port: 3307, // MySQL port (default is 3307)
 });
 
 pool.getConnection((err, connection) => {
